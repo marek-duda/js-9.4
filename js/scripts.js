@@ -1,13 +1,10 @@
 function drawTree (height) {
-
   for (var i = 1; i <= height; i++) {
-    var star = '';
-
+    var line = '';
     for (var j = 1; j <= i; j++) {
-      star += '*';
+      line += '*';
     }
-
-    console.log(star);
+    console.log(line);
   }
 }
 
