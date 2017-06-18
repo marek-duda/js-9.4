@@ -4,7 +4,7 @@ function drawTree (height) {
         for (var k = i; k < height - 1; k++){
             line += ' ';
         }   
-        for (var j = 0; j < i * 2 - 1; j++) {
+        for (var j = 0; j <= i * 2; j++) {
             line += '*';
         }
         console.log(line);
